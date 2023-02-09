@@ -1,0 +1,49 @@
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<header id="header">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid container">
+            <a class="navbar-brand" href="#">
+                <img src="/img/notetext.png" alt="Ghi chú trực tuyến" style="width:180px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-expanded="false" id="btn-navbar-collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav me-auto my-2 my-lg-0">
+                    <li class="nav-link nav-item d-flex align-items-center">
+                        <img src="/img/svg/open.svg" alt="Mở bảng ghi mới">
+                        <a class="nav-link p-1 " aria-current="page" target="_blank" href="#" id="openTagNew">Mở
+                            noteText mới</a>
+                    </li>
+                    <li class="nav-link nav-item d-flex align-items-center">
+                        <img src="/img/svg/facebook.svg" alt="Viết blogs">
+                        <a class="nav-link p-1 " aria-current="page" target="_blank" href="#" id="shareTag">Chia sẻ với
+                            Facebook</a>
+                    </li>
+                    <li class="nav-link nav-item d-flex align-items-center">
+                        <img src="/img/svg/edit-blogs.svg" alt="Viết blogs">
+                        <a class="nav-link p-1 " aria-current="page" target="_blank" href="#" id="writeBlog">Viết
+                            Blogs</a>
+                    </li>
+                    <script>
+                        const domain = (window.location.href).split('/')[2]
+                        const openTagNew = document.getElementById("openTagNew")
+                        const shareTag = document.getElementById("shareTag")
+                        const writeBlog = document.getElementById("writeBlog")
+                        openTagNew.href = 'http://' + domain
+                        shareTag.href = 'https://www.facebook.com/sharer/sharer.php?u=' + domain
+                        writeBlog.href = 'http://noteblogs.site'
+                    </script>
+                </ul>
+                <div class="darkMode">
+                    <div class="darkMode-wp">
+                        <input type="checkbox" id="darkMode" hidden>
+                        <label for="darkMode"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

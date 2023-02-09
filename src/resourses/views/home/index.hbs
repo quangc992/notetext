@@ -1,0 +1,76 @@
+<main class="container mt-3 mb-3">
+    <textarea class="form-control" id="content" placeholder="Viết ghi chú của bạn"></textarea>
+
+    <div class="controller-text mt-3">
+        <div class="mb-2">
+            <button id="copy" class="nameID_url-value btn btn-sm btn-outline-secondary">
+                <img src="/img/svg/copy.svg" height="20px" alt="">
+            </button>
+            <span id="nameID_url"></span>
+        </div>
+        <div class="mb-2">
+            <button id="copy" class="shareID_url-value btn btn-sm btn-outline-secondary">
+                <img src="/img/svg/share.svg" height="20px" alt="">
+            </button>
+            <span id="shareID_url"></span>
+        </div>
+        <button class="btn btn-sm" id="btn-show-edit-password">
+            <img src="/img/svg/lock.svg" height="20px" alt="Cài mật khẩu">
+            Đặt mật khẩu
+        </button>
+        <button class="btn btn-sm" id="btn-show-changeUrl">
+            <img src="/img/svg/link.svg" height="20px" alt="Cài mật khẩu">
+            Đổi tên link
+        </button>
+        <div id="hide-Edit-Pass">
+            <label>Đổi mật khẩu</label>
+            <input type="text" id="password-input">
+            <button id="btn-edit-password" class="btn btn-sm btn-success">Lưu</button>
+            <button id="btn-cancer-password" class="btn btn-sm btn-secondary">Hủy</button>
+        </div>
+        <div id="hide-changeUrl">
+            <label>Đổi tên</label>
+            <input type="text" id="changeUrl-input">
+            <button id="btn-changeUrl" class="btn btn-sm btn-success">Lưu</button>
+            <button id="btn-cancer-changeUrl" class="btn btn-sm btn-secondary">Hủy</button>
+        </div>
+
+        <span id="warningPassword" class="text-secondary" style="font-style: italic; font-size: 12px;">
+            <br />
+            <span class="text-danger">*Lưu ý : </span>
+            Ghi chú trực tuyến này sẽ bị xóa trong vòng 60 ngày nếu bạn không đặt mật khẩu cho nó
+        </span>
+    </div>
+
+    <div id="notifi" class="notifi">
+        <img src="/img/notifiOK.png" height="40" alt="Thông báo">
+        <span id="notifi-text"></span>
+    </div>
+    <div id="notifiError" class="notifi">
+        <img src="/img/svg/failure.svg" height="40" alt="Thông báo thất bại">
+        <span id="notifi-text-error"></span>
+    </div>
+    <div id="usingNote">
+        <img src="/img/svg/notetextUsing.svg" width="24" alt="Bảng ghi đang hoạt động">
+        <span>Có 1230 bảng ghi đang được sử dụng</span>
+        <button id="closeUsingNote">x</button>
+    </div>
+
+    <!-- Modal input password -->
+    <div class="modal fade" id="inputPassword" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="inputPasswordLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p class="text-danger">Nhập mật khẩu để tiếp tục</p>
+                    <input type="password" class="form-control" id="passwordLogin">
+                    <button class="btn btn-success mt-2" id="btn-login">Đăng nhập</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+<script src="/js/script.js"></script>
