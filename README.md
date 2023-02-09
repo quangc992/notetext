@@ -30,7 +30,7 @@ git clone https://github.com/quangc992/notetext.git
 cd NoteText
 
 # Tạo file local.env trong NoteText
-mkdir local.env
+touch local.env
 vim local.env
 
 # Chuyển sang chế độ soạn thảo bằng cách ấn phím `i`
