@@ -65,12 +65,3 @@ Hãy đọc code nếu bạn muốn sử dụng openssl, tôi đã để cập �
     - Nếu ghi chú không được đặt mật khẩu dữ liệu đó sẽ bị xóa trong vòng 60 ngày để từ ngày tạo
 
 Chúc mừng bạn đã cài đặt và sử dụng NoteText thành công!
-
-
-## Tác giả
-- [@quangc992](https://www.github.com/quangc992)
-
-## Ý tưởng
-- [atpsoftware.vn](https://atpsoftware.vn)
-- [ghichu.vn](https://ghichu.vn)
-- Bản quyền hoàn toàn thuộc về [atpsoftware.vn](https://atpsoftware.vn)
