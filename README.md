@@ -6,10 +6,10 @@ Website NoteText là một trang web giúp bạn lưu trữ và chia sẻ ghi ch
 [Link Website](https://notetext.noteblogs.site)
 
 ## Sử dụng các thư viện chính
-- Node.js
-- Express
-- Mongoose cho MongoDB
-- Bootstrap 5
+- Hệ thống : subdomain từ NoteBlogs.
+- Cơ sở dữ liệu : MongoDB.
+- Front-end : Bootstrap 5, HTML5, CSS, JS, Jquery.
+- Back-end : NodeJS, ExpressJS, JWT (Json Web Token).
 
 ## Chức năng chính
 - Lưu trữ ghi chú
