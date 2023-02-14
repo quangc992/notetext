@@ -3,7 +3,7 @@
 
 Website NoteText là một trang web giúp bạn lưu trữ và chia sẻ ghi chú một cách nhanh chóng, tiện lợi và dễ sử dụng.
 
-Trải nghiệm : <xin lỗi tôi sẽ cập nhật sau>
+[Link Website](https://notetext.noteblogs.site)
 
 ## Sử dụng các thư viện chính
 - Node.js
